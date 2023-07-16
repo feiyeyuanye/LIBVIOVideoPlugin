@@ -50,17 +50,16 @@ object ParseHtmlUtil {
                 cover = getCoverUrl(cover, imageReferer)
             val title = a.attr("title")
             val url = a.attr("href")
-            val episode = results[i].select(".text-right").text()
-            val describe = results[i].select(".pic-tag-top").text()
-            val item = MediaInfo1Data(
-                title, cover, host + url, episode
-            ).apply {
-                spanSize = (layoutSpanCount / 3)
+            val episode = a.select(".text-right").text()
+            val tags = mutableListOf<TagData>()
+            val tag = "评分："+a.select(".pic-tag-top").text()
+            tags.add(TagData(tag))
+            val describe = "暂无简介"
+            val item = MediaInfo2Data(title, cover, host + url, episode?: "", describe, tags).apply {
                 action = DetailAction.obtain(url)
             }
             videoInfoItemDataList.add(item)
         }
-        videoInfoItemDataList[0].layoutConfig = BaseData.LayoutConfig(spanCount = layoutSpanCount)
         return videoInfoItemDataList
     }
     /**
