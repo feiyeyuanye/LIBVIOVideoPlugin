@@ -1,25 +1,15 @@
-package com.jhr.plugin.components
+package com.jhr.libvioplugin.components
 
 import android.graphics.Color
 import android.graphics.Typeface
 import android.util.Log
-import android.view.Gravity
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-import com.jhr.plugin.util.JsoupUtil
-import com.su.mediabox.pluginapi.action.ClassifyAction
+import com.jhr.libvioplugin.util.JsoupUtil
 import com.su.mediabox.pluginapi.action.CustomPageAction
-import com.su.mediabox.pluginapi.action.DetailAction
 import com.su.mediabox.pluginapi.action.WebBrowserAction
 import com.su.mediabox.pluginapi.components.ICustomPageDataComponent
 import com.su.mediabox.pluginapi.data.BaseData
-import com.su.mediabox.pluginapi.data.MediaInfo1Data
 import com.su.mediabox.pluginapi.data.SimpleTextData
-import com.su.mediabox.pluginapi.util.AppUtil
 import com.su.mediabox.pluginapi.util.UIUtil.dp
-import com.su.mediabox.pluginapi.util.WebUtil
-import java.util.regex.Matcher
-import java.util.regex.Pattern
 
 /**
  * FileName: KuaKePageDataComponent

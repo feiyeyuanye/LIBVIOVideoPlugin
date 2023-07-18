@@ -1,18 +1,17 @@
-package com.jhr.plugin.components
+package com.jhr.libvioplugin.components
 
 import android.util.Log
-import com.jhr.plugin.components.Const.host
-import com.jhr.plugin.components.Const.ua
-import com.jhr.plugin.danmaku.OyydsDanmaku
-import com.jhr.plugin.danmaku.OyydsDanmakuParser
-import com.jhr.plugin.util.JsoupUtil
-import com.jhr.plugin.util.Text.trimAll
-import com.jhr.plugin.util.oyydsDanmakuApis
+import com.jhr.libvioplugin.components.Const.host
+import com.jhr.libvioplugin.components.Const.ua
+import com.jhr.libvioplugin.danmaku.OyydsDanmaku
+import com.jhr.libvioplugin.danmaku.OyydsDanmakuParser
+import com.jhr.libvioplugin.util.JsoupUtil
+import com.jhr.libvioplugin.util.Text.trimAll
+import com.jhr.libvioplugin.util.oyydsDanmakuApis
 import com.kuaishou.akdanmaku.data.DanmakuItemData
 import com.su.mediabox.pluginapi.components.IVideoPlayPageDataComponent
 import com.su.mediabox.pluginapi.data.VideoPlayMedia
 import com.su.mediabox.pluginapi.util.PluginPreferenceIns
-import com.su.mediabox.pluginapi.util.TextUtil.urlDecode
 import com.su.mediabox.pluginapi.util.WebUtil
 import com.su.mediabox.pluginapi.util.WebUtilIns
 import kotlinx.coroutines.*

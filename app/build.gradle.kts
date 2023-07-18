@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.jhr.plugin"
+    namespace = "com.jhr.libvioplugin"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.jhr.plugin"
+        applicationId = "com.jhr.libvioplugin"
         minSdk = 21
         targetSdk = 33
-        versionCode = 4
-        versionName = "1.4"
+        versionCode = 5
+        versionName = "1.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

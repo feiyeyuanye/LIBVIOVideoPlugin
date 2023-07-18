@@ -1,6 +1,5 @@
-package com.jhr.plugin.danmaku
+package com.jhr.libvioplugin.danmaku
 
-import com.jhr.plugin.danmaku.OyydsDanmaku
 import retrofit2.http.*
 
 interface OyydsDanmakuApis {

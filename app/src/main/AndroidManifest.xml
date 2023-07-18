@@ -18,9 +18,9 @@
         <!--必须标记组件工厂实现的完整包-->
         <meta-data
             android:name="media_plugin_api_impl"
-            android:value="com.jhr.plugin.PluginFactory" />
+            android:value="com.jhr.libvioplugin.PluginFactory" />
         <activity
-            android:name="com.jhr.plugin.MainActivity"
+            android:name="com.jhr.libvioplugin.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Plugin">

@@ -1,4 +1,4 @@
-package com.jhr.plugin.danmaku
+package com.jhr.libvioplugin.danmaku
 
 import android.graphics.Color
 import com.kuaishou.akdanmaku.data.DanmakuItemData

@@ -1,15 +1,15 @@
-package com.jhr.plugin.util
+package com.jhr.libvioplugin.util
 
 import android.net.Uri
 import android.util.Log
 import android.webkit.CookieManager
-import com.jhr.plugin.components.Const
+import com.jhr.libvioplugin.components.Const
 import com.su.mediabox.pluginapi.action.WebBrowserAction
 import com.su.mediabox.pluginapi.util.AppUtil
 import com.su.mediabox.pluginapi.util.PluginPreferenceIns
 import com.su.mediabox.pluginapi.util.WebUtil
 import com.su.mediabox.pluginapi.util.WebUtilIns
-import com.jhr.plugin.util.Text.trimAll
+import com.jhr.libvioplugin.util.Text.trimAll
 import org.jsoup.HttpStatusException
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document

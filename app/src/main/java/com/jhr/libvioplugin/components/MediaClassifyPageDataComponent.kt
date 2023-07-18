@@ -1,8 +1,8 @@
-package com.jhr.plugin.components
+package com.jhr.libvioplugin.components
 
 import android.util.Log
-import com.jhr.plugin.util.JsoupUtil
-import com.jhr.plugin.util.ParseHtmlUtil
+import com.jhr.libvioplugin.util.JsoupUtil
+import com.jhr.libvioplugin.util.ParseHtmlUtil
 import com.su.mediabox.pluginapi.action.ClassifyAction
 import com.su.mediabox.pluginapi.components.IMediaClassifyPageDataComponent
 import com.su.mediabox.pluginapi.data.BaseData

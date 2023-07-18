@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.jhr.plugin",
+  "applicationId": "com.jhr.libvioplugin",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 4,
-      "versionName": "1.4",
+      "versionCode": 5,
+      "versionName": "1.5",
       "outputFile": "app-release.apk"
     }
   ],

@@ -1,4 +1,4 @@
-package com.jhr.plugin
+package com.jhr.libvioplugin
 
 import android.app.Activity
 import android.os.Bundle

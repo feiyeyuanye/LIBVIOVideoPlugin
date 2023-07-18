@@ -1,6 +1,6 @@
-package com.jhr.plugin.components
+package com.jhr.libvioplugin.components
 
-import com.jhr.plugin.util.JsoupUtil
+import com.jhr.libvioplugin.util.JsoupUtil
 import com.su.mediabox.pluginapi.components.IMediaUpdateDataComponent
 
 object MediaUpdateDataComponent : IMediaUpdateDataComponent {

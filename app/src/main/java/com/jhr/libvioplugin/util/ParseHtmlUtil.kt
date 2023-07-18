@@ -1,14 +1,12 @@
-package com.jhr.plugin.util
+package com.jhr.libvioplugin.util
 
-import android.util.Log
-import com.jhr.plugin.components.Const.host
-import com.jhr.plugin.components.Const.layoutSpanCount
+import com.jhr.libvioplugin.components.Const.host
+import com.jhr.libvioplugin.components.Const.layoutSpanCount
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
 import com.su.mediabox.pluginapi.action.ClassifyAction
 import com.su.mediabox.pluginapi.action.DetailAction
 import com.su.mediabox.pluginapi.data.*
-import com.su.mediabox.pluginapi.util.UIUtil.dp
 import java.net.URL
 
 object ParseHtmlUtil {

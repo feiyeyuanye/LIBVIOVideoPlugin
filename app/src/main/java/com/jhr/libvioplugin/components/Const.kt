@@ -1,4 +1,4 @@
-package com.jhr.plugin.components
+package com.jhr.libvioplugin.components
 
 import com.su.mediabox.pluginapi.Constant
 

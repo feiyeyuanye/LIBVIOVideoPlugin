@@ -1,8 +1,8 @@
-package com.jhr.plugin.actions
+package com.jhr.libvioplugin.actions
 
 import android.content.Context
 import android.widget.Toast
-import com.jhr.plugin.components.Const
+import com.jhr.libvioplugin.components.Const
 import com.su.mediabox.pluginapi.action.Action
 import com.su.mediabox.pluginapi.action.WebBrowserAction
 

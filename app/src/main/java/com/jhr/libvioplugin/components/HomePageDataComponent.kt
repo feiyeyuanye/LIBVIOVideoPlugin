@@ -1,12 +1,11 @@
-package com.jhr.plugin.components
+package com.jhr.libvioplugin.components
 
 import android.graphics.Color
 import android.graphics.Typeface
-import android.util.Log
 import android.view.Gravity
-import com.jhr.plugin.components.Const.host
-import com.jhr.plugin.components.Const.layoutSpanCount
-import com.jhr.plugin.util.JsoupUtil
+import com.jhr.libvioplugin.components.Const.host
+import com.jhr.libvioplugin.components.Const.layoutSpanCount
+import com.jhr.libvioplugin.util.JsoupUtil
 import com.su.mediabox.pluginapi.action.ClassifyAction
 import com.su.mediabox.pluginapi.action.DetailAction
 import com.su.mediabox.pluginapi.components.IHomePageDataComponent

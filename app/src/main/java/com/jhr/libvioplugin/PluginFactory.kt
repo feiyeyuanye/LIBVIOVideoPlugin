@@ -1,14 +1,14 @@
-package com.jhr.plugin
+package com.jhr.libvioplugin
 
-import com.jhr.plugin.components.Const
-import com.jhr.plugin.components.HomePageDataComponent
-import com.jhr.plugin.components.KuaKePageDataComponent
-import com.jhr.plugin.components.MediaClassifyPageDataComponent
-import com.jhr.plugin.components.MediaDetailPageDataComponent
-import com.jhr.plugin.components.MediaSearchPageDataComponent
-import com.jhr.plugin.components.MediaUpdateDataComponent
-import com.jhr.plugin.components.VideoPlayPageDataComponent
-import com.jhr.plugin.danmaku.OyydsDanmaku
+import com.jhr.libvioplugin.components.Const
+import com.jhr.libvioplugin.components.HomePageDataComponent
+import com.jhr.libvioplugin.components.KuaKePageDataComponent
+import com.jhr.libvioplugin.components.MediaClassifyPageDataComponent
+import com.jhr.libvioplugin.components.MediaDetailPageDataComponent
+import com.jhr.libvioplugin.components.MediaSearchPageDataComponent
+import com.jhr.libvioplugin.components.MediaUpdateDataComponent
+import com.jhr.libvioplugin.components.VideoPlayPageDataComponent
+import com.jhr.libvioplugin.danmaku.OyydsDanmaku
 import com.su.mediabox.pluginapi.IPluginFactory
 import com.su.mediabox.pluginapi.components.IBasePageDataComponent
 import com.su.mediabox.pluginapi.components.IHomePageDataComponent

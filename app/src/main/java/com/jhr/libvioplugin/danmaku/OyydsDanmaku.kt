@@ -1,4 +1,4 @@
-package com.jhr.plugin.danmaku
+package com.jhr.libvioplugin.danmaku
 
 data class OyydsDanmaku(
     val code: Int,

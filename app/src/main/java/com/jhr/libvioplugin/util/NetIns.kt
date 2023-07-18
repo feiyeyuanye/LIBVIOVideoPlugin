@@ -1,6 +1,6 @@
-package com.jhr.plugin.util
+package com.jhr.libvioplugin.util
 
-import com.jhr.plugin.danmaku.OyydsDanmakuApis
+import com.jhr.libvioplugin.danmaku.OyydsDanmakuApis
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

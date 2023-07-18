@@ -1,10 +1,9 @@
-package com.jhr.plugin.components
+package com.jhr.libvioplugin.components
 
 import android.graphics.Color
 import android.graphics.Typeface
-import android.util.Log
 import android.view.Gravity
-import com.jhr.plugin.util.JsoupUtil
+import com.jhr.libvioplugin.util.JsoupUtil
 import com.su.mediabox.pluginapi.components.IMediaDetailPageDataComponent
 import com.su.mediabox.pluginapi.action.ClassifyAction
 import com.su.mediabox.pluginapi.action.CustomPageAction

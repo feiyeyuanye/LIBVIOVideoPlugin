@@ -1,4 +1,4 @@
-package com.jhr.plugin.util
+package com.jhr.libvioplugin.util
 
 object Text {
     private val trimRegex = Regex("\\s+")
