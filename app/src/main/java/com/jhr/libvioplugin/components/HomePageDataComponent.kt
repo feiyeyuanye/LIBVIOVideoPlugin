@@ -20,7 +20,7 @@ class HomePageDataComponent : IHomePageDataComponent {
         val url = host
         val doc = JsoupUtil.getDocument(url)
         val data = mutableListOf<BaseData>()
-
+        
         //3.各类推荐
         val heads = doc.select(".stui-pannel__bd").select(".stui-vodlist__head")
         val uls = doc.select(".stui-pannel__bd").select("ul")

@@ -8,7 +8,6 @@ import com.jhr.libvioplugin.components.MediaDetailPageDataComponent
 import com.jhr.libvioplugin.components.MediaSearchPageDataComponent
 import com.jhr.libvioplugin.components.MediaUpdateDataComponent
 import com.jhr.libvioplugin.components.VideoPlayPageDataComponent
-import com.jhr.libvioplugin.danmaku.OyydsDanmaku
 import com.su.mediabox.pluginapi.IPluginFactory
 import com.su.mediabox.pluginapi.components.IBasePageDataComponent
 import com.su.mediabox.pluginapi.components.IHomePageDataComponent
@@ -17,7 +16,6 @@ import com.su.mediabox.pluginapi.components.IMediaDetailPageDataComponent
 import com.su.mediabox.pluginapi.components.IMediaSearchPageDataComponent
 import com.su.mediabox.pluginapi.components.IMediaUpdateDataComponent
 import com.su.mediabox.pluginapi.components.IVideoPlayPageDataComponent
-import com.su.mediabox.pluginapi.util.PluginPreferenceIns
 
 /**
  * 每个插件必须实现本类
@@ -27,10 +25,6 @@ import com.su.mediabox.pluginapi.util.PluginPreferenceIns
 class PluginFactory : IPluginFactory() {
 
     override val host: String = Const.host
-
-    override fun pluginLaunch() {
-        PluginPreferenceIns.initKey(OyydsDanmaku.OYYDS_DANMAKU_ENABLE, defaultValue = true)
-    }
 
     override fun <T : IBasePageDataComponent> createComponent(clazz: Class<T>) = when (clazz) {
         IHomePageDataComponent::class.java -> HomePageDataComponent()  // 主页

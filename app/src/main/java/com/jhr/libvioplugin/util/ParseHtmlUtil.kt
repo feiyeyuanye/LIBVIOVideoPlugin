@@ -48,7 +48,7 @@ object ParseHtmlUtil {
                 cover = getCoverUrl(cover, imageReferer)
             val title = a.attr("title")
             val url = a.attr("href")
-            val episode = a.select(".text-right").text()
+            val episode = a.select(".text-right").text() + "[LIBVIO]"
             val tags = mutableListOf<TagData>()
             val tag = "评分："+a.select(".pic-tag-top").text()
             tags.add(TagData(tag))

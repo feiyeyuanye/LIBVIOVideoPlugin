@@ -4,7 +4,7 @@ import com.su.mediabox.pluginapi.Constant
 
 object Const {
 
-    val host: String = "https://libvio.me"
+    val host: String = "https://libvio.pro"
 
     val ua = Constant.Request.USER_AGENT_ARRAY[0]
 
